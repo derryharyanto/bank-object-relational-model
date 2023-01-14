@@ -11,7 +11,6 @@ public class RequestException extends Exception {
     public RequestException(String message) {
         super(message);
     }
-
     public RequestException(String message, String requestObject) {
         super(message);
         this.requestObject = requestObject;

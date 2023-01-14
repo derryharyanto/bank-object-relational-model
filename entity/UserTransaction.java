@@ -14,7 +14,6 @@ import java.util.Date;
 @Table(name = "USER_TRANSACTION")
 public class UserTransaction {
 
-
     @Id
     @Column(name = "TRANSACTION_ID",unique=true, nullable = false)
     private String transactionId;

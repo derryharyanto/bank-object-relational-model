@@ -14,7 +14,6 @@ public interface UserAccountRepository extends JpaRepository<UserAccount,Long> {
     String findUserAccountByTaxId(String taxId);
     @Query(nativeQuery = true,value = "SELECT account_number from USER_ACCOUNT where account_number =:accNumber")
     String findUserAccountByAccountNumber(String accNumber);
-
     UserAccount findUserAccountByUserId(Long userId);
 
 }

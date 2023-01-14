@@ -35,7 +35,6 @@ public class UserAccount {
     private String UserName;
     @Column(name = "LIVING_ADDRESS")
     private String livingAddress;
-
     @CreatedDate
     @Column(name = "created_dtime")
     private Date createdDtime;
