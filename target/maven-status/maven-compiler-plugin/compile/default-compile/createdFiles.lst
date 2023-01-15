@@ -1,7 +1,0 @@
-com/asklora/system/bankmodelorm/dto/ApiResponse.class
-com/asklora/system/bankmodelorm/exception/RequestException.class
-com/asklora/system/bankmodelorm/BankModelOrmApplication.class
-com/asklora/system/bankmodelorm/repository/UserTransactionRepository.class
-com/asklora/system/bankmodelorm/repository/UserAccountRepository.class
-com/asklora/system/bankmodelorm/entity/UserTransaction.class
-com/asklora/system/bankmodelorm/entity/UserAccount.class
